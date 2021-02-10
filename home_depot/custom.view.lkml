@@ -6,5 +6,6 @@ view: +donation {
   dimension: hd_match { type: number  sql: ${TABLE}.hd_match ;; } 
 }
 view: +profile {
-  dimension: hd_badge { type: string  sql: ${TABLE}.hd_badge ;; } 
+  dimension: hd_badge { type: string  sql: ${TABLE}.hd_badge ;; }
+  dimension: hd_nickname { type: string  sql: ${TABLE}.hd_nickname ;; } 
 }
