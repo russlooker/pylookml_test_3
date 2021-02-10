@@ -3,9 +3,9 @@ include: "/views/*.view.lkml"                # include all views in the views/ f
 
 
 
-explore: basic {
-  join: other_basic {
+explore: donation {
+  join: profile {
     relationship: many_to_one
-    sql_on: ${basic.id} = ${other_basic.basic_id} ;;
+    sql_on: ${donation.person_id} = ${profile.id} ;;
   }
 }
