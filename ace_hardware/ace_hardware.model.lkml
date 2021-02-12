@@ -1,2 +1,2 @@
-  connection: "demo_bq" include: "/ace_hardware/custom.view.lkml" 
-
+  connection: "demo_bq"
+  include: "/ace_hardware/custom.view.lkml"
